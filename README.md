@@ -40,6 +40,10 @@ async def main():
 
 asyncio.run(main())
 ```
+
+## Sample Scripts
+Sample scripts are available in the `sample` folder for reference and quick start.
+
 ## Notes
 - This project is not affiliated with DuckDuckGo.
 - DuckDuckGo may block automated requests or change their endpoints at any time.
