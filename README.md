@@ -40,11 +40,6 @@ async def main():
 
 asyncio.run(main())
 ```
-
-## Testing
-- Unit tests use mock data and run quickly.
-- Integration tests (in `test_client_prod.py`) use real DuckDuckGo data and may fail if DuckDuckGo changes their API or blocks automated requests.
-
 ## Notes
 - This project is not affiliated with DuckDuckGo.
 - DuckDuckGo may block automated requests or change their endpoints at any time.
