@@ -1,5 +1,5 @@
 class DDGSearchException(Exception):
-    """Base exception for the ddg_search library."""
+    """Base exception for the ddgimage library."""
     pass
 
 class NetworkError(DDGSearchException):

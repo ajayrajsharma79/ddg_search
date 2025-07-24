@@ -1,5 +1,5 @@
 import pytest
-from ddg_search import Client, ImageResult, VQDTokenError
+from ddgimage import Client, ImageResult, VQDTokenError
 import copy
 
 # Mark all tests in this file as asyncio
@@ -37,6 +37,7 @@ def mock_httpx_client(mocker):
 
     mock_post_response = mocker.MagicMock()
     mock_post_response.content = FAKE_VQD_HTML
+    mock_post_response.text = FAKE_VQD_HTML.decode()
     mock_post_response.raise_for_status.return_value = None
 
     mock_get_response = mocker.MagicMock()

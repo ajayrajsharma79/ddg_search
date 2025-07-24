@@ -3,14 +3,14 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "ddg_search"
+name = "ddgimage"
 version = "0.1.0"
 description = "A modern, async Python library for DuckDuckGo image searching and crawling."
 readme = "README.md"
 requires-python = ">=3.12"
 license = "MIT"
 authors = [
-    { name = "Ajay Sharma", email = "ajayrajsharma79@hotmail.com" },
+    { name = "Ajay Sharma", email = "xelionaj@gmail.com" },
 ]
 dependencies = [
     "httpx[http2]>=0.28.1",

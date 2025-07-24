@@ -1,5 +1,5 @@
 import pytest
-from ddg_search import Client, ImageResult
+from ddgimage import Client, ImageResult
 
 pytestmark = pytest.mark.asyncio
 

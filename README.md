@@ -1,4 +1,4 @@
-# ddg_search
+# ddgimage
 
 A modern, asynchronous Python client for searching images on DuckDuckGo.
 
