@@ -10,14 +10,14 @@ A modern, asynchronous Python client for searching images on DuckDuckGo.
 
 ## Installation
 ```bash
-pip install ddg_search
+pip install ddgimage
 ```
 
 ## Usage
 
 ### Basic Image Search
 ```python
-from ddg_search import Client
+from ddgimage import Client
 import asyncio
 
 async def main():
@@ -30,7 +30,7 @@ asyncio.run(main())
 
 ### Extract Images from a Web Page
 ```python
-from ddg_search import Client
+from ddgimage import Client
 import asyncio
 
 async def main():
